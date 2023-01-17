@@ -1,0 +1,43 @@
+Basic Linux---
+pwd  <--Present working directory
+cd <-- current directory
+ls <--list the content in folder
+clear <--to clear the terminal
+touch {file name} <--create a file in diectory
+
+Git Starts Here---
+git status
+git init
+git add --a / git add .     <--start tracking all file in directory
+git add "name of file" <--start tracking a file
+git rm --cached {filename} <--stop tracking a file
+git commit -m"name of commit to be saved"
+git log   <--To check all previous commit
+git log --stat <--give previous commit and a short summary of commit
+git log --since={2.days/2.weeks/2.years}
+git checkout --{filename} <--restore the file to last commit
+git checkout -f <--restore all file to last commit
+rm -rf .git <--remove (remove folder) .git (used to delete .git folder)
+git clone "url"
+touch .gitignore
+.gitignore
+{
+1.anything file name in it will be ignore by git.
+2.if we write *.filetype then anyfile with that type got ignore . e.g. *.log then any file with .log will get ignore 
+3. to ignore every directory i.e. folder with a name. we write {foldername}/
+4. to ignore only 1 dierctory we use /{foldername}/
+}
+git diff <-- it compare files in working directory with staging area
+git diff --staged <-- compare current staged with previous commit
+git rm "{filename}" <--remove a file fro m directory also commit the change
+
+
+Git branching---
+git branch <-- to check all the branch
+git checkout -b {branchName} <--create a branch other than master
+git checkout {brachname}  <--use to switch branch [if branchname=master we go into master branch]
+
+
+
+
+GitHUb---
