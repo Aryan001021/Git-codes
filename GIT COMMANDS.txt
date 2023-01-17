@@ -36,8 +36,23 @@ Git branching---
 git branch <-- to check all the branch
 git checkout -b {branchName} <--create a branch other than master
 git checkout {brachname}  <--use to switch branch [if branchname=master we go into master branch]
+git branch -d {branchName} <--delete a branch
+
+GIT BRANCH MERGING---
+git branch merge {branchName you want to merge in current branch}
+git branch --merged <--show  the branches that you have already merged
+git branch --no-merged <--show  the branches that you have not merged yet
 
 
+GitHUB---
+copy code from site that looks like(git remote add {alias of remote} {repo url}) <--let alias of remote be origin
+git remote <-- show name of remote
+git remote -v <--show push and pull options
+git push -u origin {branchName}
+
+GET	PERMISSION TO PUSH ON GITHUN---
+GO TO ACCOUNT SETTINGS
+ADD SSH KEYS >>>NEW SSH KEY
+SEARCH {SSH KEY GITHUB AND MAKE ONE TO ADD}
 
 
-GitHUb---
